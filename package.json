@@ -11,11 +11,7 @@
     "url": "https://github.com/Chapabu/stylelint-drupal-no-core/issues"
   },
   "homepage": "https://github.com/Chapabu/stylelint-drupal-no-core",
-  "scripts": {
-    "lint": "tslint src/*",
-    "start": "tsc --watch",
-    "build": "tsc"
-  },
+  "scripts": {},
   "keywords": [
     "css",
     "drupal",
@@ -29,13 +25,12 @@
   ],
   "author": "Matt Chapman <chapabu101@gmail.com> (https://github.com/Chapabu)",
   "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^9.0.0"
+  },
   "devDependencies": {
-    "@types/node": "^10.3.2",
-    "@types/stylelint": "^7.11.0",
     "prettier": "^1.13.5",
-    "tslint": "^5.10.0",
-    "tslint-config-prettier": "^1.13.0",
-    "typescript": "^2.9.1"
+    "stylelint-test-rule-tape": "^0.2.0"
   },
   "dependencies": {}
 }
