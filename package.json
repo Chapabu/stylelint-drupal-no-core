@@ -2,9 +2,19 @@
   "name": "stylelint-drupal-no-core",
   "version": "0.0.1",
   "description": "Stylelint rule for preventing the use of core Drupal classnames.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chapabu/stylelint-drupal-no-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chapabu/stylelint-drupal-no-core/issues"
+  },
+  "homepage": "https://github.com/Chapabu/stylelint-drupal-no-core",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tslint src/*",
+    "start": "tsc --watch",
+    "build": "tsc"
   },
   "keywords": [
     "css",
@@ -18,5 +28,14 @@
     "stylelint-plugin"
   ],
   "author": "Matt Chapman <chapabu101@gmail.com> (https://github.com/Chapabu)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.3.2",
+    "@types/stylelint": "^7.11.0",
+    "prettier": "^1.13.5",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.1"
+  },
+  "dependencies": {}
 }

@@ -1,3 +1,11 @@
+# Project
+
+dist
+
+# Editor
+
+.vscode
+
 # Logs
 logs
 *.log
