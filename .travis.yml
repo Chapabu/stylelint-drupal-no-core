@@ -1,0 +1,17 @@
+language: nodejs
+node_js:
+  - "6"
+  - "8"
+  - "10"
+
+env:
+  STYLELINT_VERSION: ^7.0.0
+  STYLELINT_VERSION: ^8.0.0
+  STYLELINT_VERSION: ^9.0.0
+
+before_script:
+  - npm install -g stylelint@${STYLELINT_VERSION}
+
+cache:
+  directories:
+    - "node_modules"
