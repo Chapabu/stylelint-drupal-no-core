@@ -11,7 +11,9 @@
     "url": "https://github.com/Chapabu/stylelint-drupal-no-core/issues"
   },
   "homepage": "https://github.com/Chapabu/stylelint-drupal-no-core",
-  "scripts": {},
+  "scripts": {
+    "test": "tape ./**/*.test.js"
+  },
   "keywords": [
     "css",
     "drupal",
@@ -29,7 +31,11 @@
     "stylelint": "^9.0.0"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "prettier": "^1.13.5",
+    "stylelint": "^9.3.0",
     "stylelint-test-rule-tape": "^0.2.0"
   },
   "dependencies": {}
